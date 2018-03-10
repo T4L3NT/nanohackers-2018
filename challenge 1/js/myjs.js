@@ -1,4 +1,4 @@
 function myFunction() {
-    document.getElementById("text").innerHTML = "gotem";
+    document.getElementById("TEXT").innerHTML = "gotem";
 }
 }
