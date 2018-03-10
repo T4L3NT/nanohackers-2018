@@ -6,27 +6,44 @@ h1 {
 	}
 body{ 
 	background-image: url("https://c1.staticflickr.com/6/5211/5526617200_7a34aea66d_b.jpg");
-	background-repeat: no-repeat;
+	background-repeat: verticle;
 	background-size: 2000px 1000px;
 	
 }
 button{
-	text-align: center;	
+	background-color: red;
+	border: solid black 2px;
+	color: red;
+	text-align: center;
+	text-shadow: 2px 2px white;
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-left: 625px;
+	position: relative;
+	
 }
 
 #SHREK {
-	margin-left: 625px;
+	margin-left: -50px;
+	margin-bottom: 1400px;
 	width: 300px;
 	height: 250px;
+	position: absolute;
 }
 #TEXT {
-	text-align: center;
-	font-family: HACKED;
 	text-decoration-line: overline;
-	text-decoration-style: wavy;
+    text-decoration-style: wavy;
+	margin-top: 0px;
 }
-@font-face
-{
-font-family: HACKED;
-src: url(HACKED.ttf);
+div.SPECIAL {
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+	font-size: 40px;
+	color: red;
+	text-shadow: 2px 2px white;
+	margin-top: 350px;
+	
 }
