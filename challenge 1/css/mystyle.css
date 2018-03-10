@@ -4,8 +4,26 @@ h1 {
 	font-family: verdana;
 	}
 body{ 
-	background-color: #4ecaa9;
+	background-image: url("https://c1.staticflickr.com/6/5211/5526617200_7a34aea66d_b.jpg");
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+	
 }
 button{
 	text-align: center;	
+}
+
+#SHREK {
+	margin-left: 625px;
+	width: 300px;
+	height: 250px;
+}
+#TEXT {
+	text-align: center;
+	font-family: HACKED;
+}
+@font-face
+{
+font-family: HACKED;
+src: url(HACKED.ttf);
 }
