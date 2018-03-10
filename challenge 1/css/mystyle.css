@@ -2,6 +2,7 @@ h1 {
 	text-align: center;
 	color: red;
 	font-family: verdana;
+	text-shadow: 2px 2px #ff0000;
 	}
 body{ 
 	background-image: url("https://c1.staticflickr.com/6/5211/5526617200_7a34aea66d_b.jpg");
@@ -21,6 +22,8 @@ button{
 #TEXT {
 	text-align: center;
 	font-family: HACKED;
+	text-decoration-line: overline;
+	text-decoration-style: wavy;
 }
 @font-face
 {
