@@ -1,49 +1,68 @@
+@font-face {
+font-family: "Futura";
+src: url("css/fonts/Futura.ttf");
+src: 
+url("css/fonts/Futura.woff") format("woff"),
+url("css/fonts/Futura.otf") format("opentype"),
+url("css/fonts/Futura.svg#filename") format("svg");
+}
 h1 {
 	text-align: center;
 	color: red;
-	font-family: verdana;
-	text-shadow: 2px 2px #ff0000;
+	font-family: 'Futura', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:100px;
 	}
 body{ 
-	background-image: url("https://c1.staticflickr.com/6/5211/5526617200_7a34aea66d_b.jpg");
-	background-repeat: verticle;
-	background-size: 2000px 1000px;
-	
+	background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-330726.png");
+	background-size:cover;
+	background-position:center;
 }
 button{
 	background-color: red;
 	border: solid black 2px;
-	color: red;
+	color: white;
 	text-align: center;
-	text-shadow: 2px 2px white;
 	display: inline-block;
-	font-size: 18px;
-	margin: 4px 2px;
+	font-size: 30px;
 	cursor: pointer;
-	margin-left: 625px;
 	position: relative;
+	top: -240px;
+    left: 910px;
+    right: 0px;
+    bottom: 1000px;
+	font-family: 'Futura';
+
 	
 }
-
-#SHREK {
+button:hover { 
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+/*#SPACE {
 	margin-left: -50px;
 	margin-bottom: 1400px;
 	width: 300px;
 	height: 250px;
 	position: absolute;
 }
-#TEXT {
-	text-decoration-line: overline;
-    text-decoration-style: wavy;
-	margin-top: 0px;
-}
+*/
 div.SPECIAL {
+	font-family: 'Futura', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:30px;
 	text-align: center;
 	margin-left: 400px;
 	margin-right: 400px;
 	font-size: 40px;
 	color: red;
-	text-shadow: 2px 2px white;
+	text-shadow: 1px 1px white;
 	margin-top: 350px;
 	
+}
+div.CENTER-ALIGN {
+	text-align: center;
 }
