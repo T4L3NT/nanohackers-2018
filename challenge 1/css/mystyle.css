@@ -14,24 +14,33 @@ h1 {
 	font-style:normal;
 	font-size:100px;
 	}
+#PROOF {
+	font-family:'Futura';
+	color:#00e6e6;
+	font-size:40px;
+	margin-left:290px;
+	margin-top:50px;
+	text-decoration: underline;
+	position:absolute;
+	background-color:#ff4d3d;
+}
 body{ 
-	background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-330726.png");
+	background-image: url("https://i.imgur.com/Vfyekg3.jpg");
 	background-size:cover;
 	background-position:center;
+	background-repeat: none;
 }
-button{
+button.home{
 	background-color: red;
 	border: solid black 2px;
 	color: white;
 	text-align: center;
-	display: inline-block;
+	display: block;
 	font-size: 30px;
 	cursor: pointer;
-	position: relative;
-	top: -240px;
+	position:relative;
+	top: -225px;
     left: 910px;
-    right: 0px;
-    bottom: 1000px;
 	font-family: 'Futura';
 
 	
@@ -52,17 +61,67 @@ button:hover {
 div.SPECIAL {
 	font-family: 'Futura', Arial, sans-serif;
 	font-weight:normal;
-	font-style:normal;
+	font-style:bold;
 	font-size:30px;
-	text-align: center;
-	margin-left: 400px;
-	margin-right: 400px;
 	font-size: 40px;
 	color: red;
-	text-shadow: 1px 1px white;
+	text-shadow: 0.5px 0.5px red;
 	margin-top: 350px;
+	text-align:center;
+	margin-left:0px;
+	margin-right:1000px;
+	margin-top:50px;
 	
 }
 div.CENTER-ALIGN {
 	text-align: center;
+	margin-left:1000px;
+	margin-top:-500px;
+	position:relative;
+	
+}
+#QUIZ {
+	font-family:'Futura';
+	color:#00e6e6;
+	font-size:40px;
+	margin-left:1100px;
+	margin-top:50px;
+	text-decoration: underline;
+	position:absolute;
+	background-color:#ff4d3d;
+}
+p.form {
+	font-family:'Futura';
+	color:white;
+	
+	
+}
+#help {
+	font-family:'Futura';
+	color:white;
+	font-size:20px;
+	top: 100px;
+}
+#submit {
+	background-color: red;
+	border: solid black 2px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	cursor: pointer;
+	position:relative;
+	font-family:'Futura';
+	margin-left: 400px;
+	margin-top: 30px;
+}
+input[type=text], select {
+	width: 20%;
+	padding: 10px 10px;
+}
+input #response[type=text], select {
+	width: 30%;
+	height: 100%;
+	padding: 10px 10px;
+	
 }
