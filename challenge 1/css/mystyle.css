@@ -93,6 +93,7 @@ div.CENTER-ALIGN {
 p.form {
 	font-family:'Futura';
 	color:white;
+	font-size:40px;
 	
 	
 }
@@ -115,13 +116,83 @@ p.form {
 	margin-left: 400px;
 	margin-top: 30px;
 }
-input[type=text], select {
-	width: 20%;
+#firstname {
+	width: 150px;
 	padding: 10px 10px;
+	margin-top:-35px;
+	margin-left:-85px;
+	position:absolute;
+	font-family:'Futura';
+	font-size:20px;
 }
-input #response[type=text], select {
-	width: 30%;
-	height: 100%;
+#lastname {
+	width: 150px;
 	padding: 10px 10px;
+	margin-top:-35px;
+	margin-left:-85px;
+	position:absolute;
+	font-family:'Futura';
+	font-size:20px;
+}
+#response {
+	width: 300px;
+	height: 100px;
+	padding: 10px 10px;
+	resize: none;
+	border: 2px solid red;
+	font-family:'Futura';
+	font-size:20px;
+	margin-top:-30px;
+	
+}
+.container {
+	display:block;
+	position:relative;
+	padding-left:35px;
+	cursor:pointer;
+	margin-bottom: 12px;
+	font-size:20px;
+	font-family:'Futura';
+	-webkit-user-select: none;
+    -moz-user-select: none;
+}
+.container input {
+	position: absolute;
+	opacity:0;
+	cursor:pointer;
+}
+.checkmark {
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color:#eee;
+	border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+	background-color: #00e6e6;
+}
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display:none;
+}
+.container input:checked ~ .checkmark:after {
+	display:block;
+}
+.container .checkmark:after {
+	top: 9px;
+	left: 9px;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background:white;
+}
+p.radiotext {
+	color:#ff4d3d;
 	
 }
