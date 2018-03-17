@@ -6,7 +6,7 @@ url("css/fonts/Futura.woff") format("woff"),
 url("css/fonts/Futura.otf") format("opentype"),
 url("css/fonts/Futura.svg#filename") format("svg");
 }
-h1 {
+h1.main {
 	text-align: center;
 	color: red;
 	font-family: 'Futura', Arial, sans-serif;
@@ -19,7 +19,7 @@ h1 {
 	color:#00e6e6;
 	font-size:40px;
 	margin-left:290px;
-	margin-top:50px;
+	margin-top:-50px;
 	text-decoration: underline;
 	position:absolute;
 	background-color:#ff4d3d;
@@ -38,9 +38,9 @@ button.home{
 	display: block;
 	font-size: 30px;
 	cursor: pointer;
-	position:relative;
-	top: -225px;
-    left: 910px;
+	position:absolute;
+	top: 30px;
+    left: 900px;
 	font-family: 'Futura';
 
 	
@@ -53,9 +53,9 @@ button.New{
 	display: block;
 	font-size: 30px;
 	cursor: pointer;
-	position:relative;
-	top: -268px;
-    left: 800px;
+	position:absolute;
+	top: 30px;
+    left: 835px;
 	font-family: 'Futura';
 }
 button:hover { 
@@ -99,7 +99,7 @@ div.CENTER-ALIGN {
 	color:#00e6e6;
 	font-size:40px;
 	margin-left:1100px;
-	margin-top:50px;
+	margin-top:-50px;
 	text-decoration: underline;
 	position:absolute;
 	background-color:#ff4d3d;
@@ -209,4 +209,22 @@ p.form {
 p.radiotext {
 	color:#ff4d3d;
 	
+}
+table {
+	margin-top:400px;
+	margin-left:775px;
+	text-align: center;
+	border: solid 2px red;
+	font-family:'Futura';
+	color:black;
+	font-size:30px;
+}
+th {
+	background-color:black;
+	color:white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #a9a9a9;}
+#heck {
+	background-color:yellow;
 }
