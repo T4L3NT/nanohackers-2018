@@ -35,14 +35,14 @@ button.home{
 	border: solid black 3px;
 	color: white;
 	text-align: center;
-	display: block;
+	display: inline-block;
 	font-size: 30px;
 	cursor: pointer;
 	position:absolute;
 	top: 30px;
     left: 900px;
 	font-family: 'Futura';
-
+	
 	
 }
 button.New{
@@ -56,6 +56,19 @@ button.New{
 	position:absolute;
 	top: 30px;
     left: 835px;
+	font-family: 'Futura';
+}
+button.Custom{ 
+	background-color: red;
+	border: solid black 3px;
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	cursor: pointer;
+	position:absolute;
+	top: 30px;
+    left: 990px;
 	font-family: 'Futura';
 }
 button:hover { 
@@ -93,6 +106,9 @@ div.CENTER-ALIGN {
 	margin-top:-500px;
 	position:relative;
 	
+}
+#container{
+	text-align: center;
 }
 #QUIZ {
 	font-family:'Futura';
