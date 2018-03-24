@@ -244,3 +244,7 @@ tr:nth-child(odd) {background-color: #a9a9a9;}
 #heck {
 	background-color:yellow;
 }
+.centerz {
+	text-align:center;
+	position:absolute;
+}
